@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Botões de Rádio</title>
+</head>
+<body>
+    <form>
+        <p>Qual é a sua cor favorita?</p>
+        <label>
+            <input type="radio" name="cor" value="vermelho">
+            Vermelho
+        </label><br>
+        <label>
+            <input type="radio" name="cor" value="azul">
+            Azul
+        </label><br>
+        <label>
+            <input type="radio" name="cor" value="verde">
+            Verde
+        </label><br>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botões de Rádio Estilizados</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form>
+        <p>Qual é a sua cor favorita?</p>
+        <label class="radio-container">
+            Vermelho
+            <input type="radio" name="cor" value="vermelho">
+            <span class="checkmark"></span>
+        </label><br>
+        <label class="radio-container">
+            Azul
+            <input type="radio" name="cor" value="azul">
+            <span class="checkmark"></span>
+        </label><br>
+        <label class="radio-container">
+            Verde
+            <input type="radio" name="cor" value="verde">
+            <span class="checkmark"></span>
+        </label><br>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>

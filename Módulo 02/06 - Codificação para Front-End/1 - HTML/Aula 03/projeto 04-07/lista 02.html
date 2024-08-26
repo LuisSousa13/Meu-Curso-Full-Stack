@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página com Links em Botões</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 18px;
+            margin: 10px;
+            cursor: pointer;
+            border: none;
+            background-color: #007bff;
+            color: #fff;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Página com Links em Botões</h1>
+    <p>Clique nos botões abaixo para navegar entre as páginas:</p>
+    <button onclick="window.location.href = 'pagina1.html';">Ir para Página 1</button>
+    <button onclick="window.location.href = 'pagina2.html';">Ir para Página 2</button>
+    <button onclick="window.location.href = 'pagina3.html';">Ir para Página 3</button>
+</body>
+</html>lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial com Cards</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .card {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            padding: 20px;
+            margin: 20px;
+            width: 300px;
+            text-align: center;
+        }
+        .card img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .card h2 {
+            color: #333;
+        }
+        .card p {
+            color: #666;
+        }
+        .card a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 8px 16px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .card a:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="https://via.placeholder.com/300" alt="Imagem do Card">
+        <h2>Título do Card</h2>
+        <p>Descrição breve do card. Pode conter mais informações sobre o conteúdo do card.</p>
+        <a href="pagina1.html">Ver mais</a>
+    </div>
+    <div class="card">
+        <img src="https://via.placeholder.com/300" alt="Imagem do Card">
+        <h2>Título do Card</h2>
+        <p>Descrição breve do card. Pode conter mais informações sobre o conteúdo do card.</p>
+        <a href="pagina2.html">Ver mais</a>
+    </div>
+    <div class="card">
+        <img src="https://via.placeholder.com/300" alt="Imagem do Card">
+        <h2>Título do Card</h2>
+        <p>Descrição breve do card. Pode conter mais informações sobre o conteúdo do card.</p>
+        <a href="pagina3.html">Ver mais</a>
+    </div>
+</body>
+</html>
