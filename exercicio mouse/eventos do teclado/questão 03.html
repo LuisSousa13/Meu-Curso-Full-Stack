@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Detectar tecla Shift</title>
+</head>
+<body>
+    <input type="text" id="meuCampoTexto" placeholder="Pressione uma tecla com Shift...">
+
+    <script>
+        // Seleciona o campo de texto pelo ID
+        const campoTexto = document.getElementById("meuCampoTexto");
+
+        // Adiciona um event listener para o evento keydown
+        campoTexto.addEventListener("keydown", function(event) {
+            if (event.shiftKey) {
+                console.log(`Tecla pressionada: ${event.key} com Shift`);
+            } else {
+                console.log(`Tecla pressionada: ${event.key} sem Shift`);
+            }
+        });
+    </script>
+</body>
+</html>
+

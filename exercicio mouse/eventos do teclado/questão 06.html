@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detecção da Tecla Esc</title>
+</head>
+<body>
+    <h1>Pressione a tecla Esc</h1>
+
+    <script>
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'Escape') { // Verifica se a tecla pressionada é Esc
+                alert('A tecla Esc foi pressionada!');
+            }
+        });
+    </script>
+</body>
+</html>

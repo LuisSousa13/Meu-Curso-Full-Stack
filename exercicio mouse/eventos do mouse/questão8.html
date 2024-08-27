@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Mouseout</title>
+    <style>
+        /* Estilo para a div */
+        #minhaDiv {
+            width: 200px;
+            height: 100px;
+            background-color: lightblue;
+            text-align: center;
+            line-height: 100px;
+            border: 1px solid #000;
+        }
+    </style>
+</head>
+<body>
+    <div id="minhaDiv">Passe o mouse sobre mim</div>
+
+    <script>
+        // Seleciona a div pelo ID e adiciona o evento de mouseout
+        document.getElementById("minhaDiv").addEventListener("mouseout", function() {
+            alert("Mouse saiu da div!");
+        });
+    </script>
+</body>
+</html>

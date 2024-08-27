@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Captura de evento keydown</title>
+</head>
+<body>
+    <input type="text" id="meuCampoTexto" placeholder="Digite algo e pressione Enter...">
+
+    <script>
+        // Seleciona o campo de texto pelo ID
+        const campoTexto = document.getElementById("meuCampoTexto");
+
+        // Adiciona um event listener para o evento keydown
+        campoTexto.addEventListener("keydown", function(event) {
+            // Verifica se a tecla pressionada é a tecla Enter
+            if (event.key === "Enter") {
+                console.log("A tecla Enter foi pressionada!");
+            }
+        });
+    </script>
+</body>
+</html>

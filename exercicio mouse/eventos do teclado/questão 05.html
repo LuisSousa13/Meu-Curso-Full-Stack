@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mostrar Tecla Pressionada</title>
+</head>
+<body>
+    <h1>Pressione qualquer tecla</h1>
+    <p id="tecla">Nenhuma tecla pressionada</p>
+
+    <script>
+        document.addEventListener('keydown', function(event) {
+            const tecla = event.key; // Pega a tecla pressionada
+            document.getElementById('tecla').textContent = `Tecla pressionada: ${tecla}`;
+        });
+    </script>
+</body>
+</html>
