@@ -1,2 +1,0 @@
-# Meu Curso Full Stack
- 
